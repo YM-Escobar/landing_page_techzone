@@ -1,0 +1,17 @@
+{
+  "name": "landing_page_techzone",
+  "version": "1.0.0",
+  "description": "Tech Zone Landing Page",
+  "main": "index.html",
+  "scripts": {
+    "build-tw": "tailwindcss -i ./src/css/styles.css -o ./src/css/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.4"
+  }
+}
